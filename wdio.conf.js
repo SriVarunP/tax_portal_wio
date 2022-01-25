@@ -32,6 +32,9 @@ exports.config = {
          //  './test/elements/*.js'
            [ './test/specs/elements/loginTest.js', './test/specs/elements/WorkflowTest.js','./test/specs/elements/DataMgmtTest.js']
 
+        ],
+        smoke_1 :[
+            ['./test/specs/smoke_1/loginTest.js', './test/specs/smoke_1/CreateMasterObligationTest.js']
         ]
         
 
